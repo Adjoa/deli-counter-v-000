@@ -14,6 +14,5 @@ def line(katz_deli)
   else
     print "The line is currently: "
     print "#{display_current_line(katz_deli)}"
-     ].join(" ")
   end
 end
