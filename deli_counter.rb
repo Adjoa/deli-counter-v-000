@@ -1,4 +1,4 @@
-# katz_deli = ["Logan", "Avi", "Spencer"]
+katz_deli = ["Logan", "Avi", "Spencer"]
 
 def line(katz_deli)
   if katz_deli == []
@@ -6,10 +6,11 @@ def line(katz_deli)
   else
     list = []
     katz_deli.each_with_index do |customer, index|
-      list.push "#{index + 1}. #{katz_deli[number]}"
+      list.push "#{index + 1}. #{katz_deli[index]}"
     end
+    puts list
     ["The line is currently: ", list].join
   end
 end
 
-# line(katz_deli)
+line(katz_deli)
