@@ -1,7 +1,7 @@
 def print_current_line(katz_deli)
   number = 0
   katz_deli.each do |customer|
-    puts "#{number + 1}. #{katz_deli[number]}"
+    puts "#{number + 1}. #{katz_deli[number]} "
     number+=1
   end
 end
