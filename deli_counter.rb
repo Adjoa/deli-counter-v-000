@@ -16,3 +16,5 @@ def line(katz_deli)
     print "#{display_current_line(katz_deli)}"
   end
 end
+
+line(katz_deli)
