@@ -9,7 +9,7 @@ def line(katz_deli)
       list.push "#{index + 1}. #{katz_deli[index]} "
     end
     # puts list
-    ["The line is currently: ", list].join.strip
+    return ["The line is currently: ", list].join.strip
   end
 end
 
