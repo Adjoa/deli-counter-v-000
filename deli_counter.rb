@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     print "The line is currently: "
     katz_deli.each_with_index do |customer, index|
-      print "#{index + 1}. #{katz_deli[number]} "
+      print "#{index + 1}. #{katz_deli[number]}"
     end
   end
 end
