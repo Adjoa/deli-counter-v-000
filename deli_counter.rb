@@ -12,6 +12,8 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    return ["The line is currently: ", display_current_line(katz_deli)].join(" ")
+    print "The line is currently: "
+    print "#{display_current_line(katz_deli)}"
+     ].join(" ")
   end
 end
