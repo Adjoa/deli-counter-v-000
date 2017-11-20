@@ -1,4 +1,4 @@
-katz_deli = ["Logan", "Avi", "Spencer"]
+# katz_deli = ["Logan", "Avi", "Spencer"]
 
 def line(katz_deli)
   if katz_deli == []
@@ -13,4 +13,4 @@ def line(katz_deli)
   end
 end
 
-line(katz_deli)
+# line(katz_deli)
