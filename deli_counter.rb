@@ -1,3 +1,5 @@
+katz_deli = ["Logan", "Avi", "Spencer"]
+
 def display_current_line(katz_deli)
   number = 0
   katz_deli.each do |customer|
@@ -11,6 +13,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     current_line = display_current_line(katz_deli)
-    puts ["The line is currently: ", current_line].join.chomp
+    return ["The line is currently: ", current_line].join.chomp
   end
 end
