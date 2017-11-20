@@ -13,6 +13,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     current_line = display_current_line(katz_deli)
-    return ["The line is currently: ", current_line].join.chomp
+    return ["The line is currently: ", current_line].join(" ")
   end
 end
