@@ -4,10 +4,11 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-    print "The line is currently: "
+    list = []
     katz_deli.each_with_index do |customer, index|
-      print "#{index + 1}. #{katz_deli[number]}"
+      list.push "#{index + 1}. #{katz_deli[number]}"
     end
+    ["The line is currently: ", list].join
   end
 end
 
