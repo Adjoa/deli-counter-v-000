@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |customer, index|
       list.push "#{index + 1}. #{katz_deli[index]} "
     end
-    puts list
+    # puts list
     ["The line is currently: ", list].join.strip
   end
 end
